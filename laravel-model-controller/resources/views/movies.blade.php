@@ -14,7 +14,7 @@
         <h4>{{ $movie->date }}</h4>
         <h1>{{ $movie->vote }}</h1>
       </div>
-    @endforeach  
+    @endforeach
   </div>
 </section>
 @endsection
