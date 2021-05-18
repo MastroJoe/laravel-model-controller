@@ -3,6 +3,7 @@
 @section('main')
 <section class="movies-container container-fluid">
   <h1>Movies</h1>
+  {{ var_dump($movies) }}
   <!-- card section -->
   <div class="card-container container-center">
     <!-- stampo tutte le cards con foreach -->
